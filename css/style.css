@@ -143,6 +143,7 @@ ol {
   background-color: var(--primary-link-color);
 }
 
+/* hero section */
 .first-section-h-first-style {
   font-size: 56px;
   line-height: 1.07;
@@ -165,6 +166,34 @@ ol {
   cursor: pointer;
 }
 
+/* second section */
+.seond-section-container {
+  padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.second-section-ul-box {
+  display: flex;
+  gap: 24px;
+}
+
+.second-section-li-box {
+  width: calc((100% - 72px) / 4);
+}
+
 .second-section-h-third-style {
   font-weight: 500;
   font-size: 20px;
@@ -173,9 +202,17 @@ ol {
   color: var(--primary-link-color);
 }
 
+.second-section-h-third-box {
+  margin-bottom: 8px;
+}
+
 .second-section-p-style {
   font-size: 16px;
   letter-spacing: 0.02em;
+}
+/* third section */
+.third-section-container {
+  padding-bottom: 120px;
 }
 
 .third-section-h-second-style {
@@ -185,6 +222,51 @@ ol {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-link-color);
+}
+
+.third-section-h-box {
+  margin-bottom: 72px;
+}
+
+.third-section-ul-box {
+  display: flex;
+  gap: 24px;
+}
+
+.third-section-li-box {
+  width: calc((100% - 48px) / 3);
+}
+
+/* fourth section */
+.fourth-section-container {
+  padding: 120px 0;
+}
+
+.fourth-section-h-second-box {
+  margin-bottom: 72px;
+}
+
+.fourth-section-ul-box {
+  display: flex;
+  gap: 24px;
+}
+
+.fourth-section-li-box {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 4px 4px;
+}
+
+.fourth-section-card-info-box {
+  padding: 32px 16px;
+}
+
+.fourth-section-card-h-box {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.fourth-section-card-p-box {
+  text-align: center;
 }
 
 .fourth-section-style {
@@ -253,6 +335,19 @@ ol {
 }
 
 /* footer */
+.footer-container {
+  padding: 100px 0;
+}
+
+.footer-link-box {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-p-box {
+  max-width: 264px;
+}
+
 .footer-style {
   background-color: var(--primary-link-color);
 }
