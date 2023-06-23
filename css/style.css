@@ -306,6 +306,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-link-color);
+  margin-bottom: 8px;
 }
 .portfolio-rows-p-style {
   font-size: 16px;
@@ -331,9 +332,8 @@ ol {
   border-top: none;
 }
 
-.portfolio-hero-card-h-box {
-  margin-bottom: 8px;
-}
+/* .portfolio-hero-card-h-box {
+} */
 
 /* btn-section */
 .portfolio-hero-frst-btn {
