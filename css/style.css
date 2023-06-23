@@ -6,6 +6,7 @@
   --logo-color: #4d5ae5;
   --primary-link-color: #2e2f42;
   --bg-btn-color: #f4f4fd;
+  --portfolio-frst-btn-color: #e7e9fc;
 }
 
 body {
@@ -286,6 +287,19 @@ ol {
   background-color: #ffffff;
 }
 
+/* portfolio page */
+.portfolio-hero-section-container {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
+
+.portfolio-hero-ul-box {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px;
+}
+
 .portfolio-rows-card-style {
   font-weight: 500;
   font-size: 20px;
@@ -301,6 +315,17 @@ ol {
 }
 
 /* btn-section */
+.portfolio-hero-frst-btn {
+  padding: 12px 24px;
+  border: 1px solid var(--portfolio-frst-btn-color);
+  border-radius: 4px;
+}
+
+.portfolio-hero-frst-btn:hover,
+.portfolio-hero-frst-btn:focus {
+  border: 1px solid transparent;
+}
+
 .btn-style {
   background-color: #4d5ae5;
   font-family: 'Roboto', sans-serif;
