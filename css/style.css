@@ -314,6 +314,27 @@ ol {
   color: var(--primary-text-color);
 }
 
+.portfolio-hero-rows-container {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+
+.portfolio-hero-li-box {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio-hero-card-info-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.portfolio-hero-card-h-box {
+  margin-bottom: 8px;
+}
+
 /* btn-section */
 .portfolio-hero-frst-btn {
   padding: 12px 24px;
